@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>page d'accueil</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+	<h1>Identification</h1>
+	     <button onclick="jeMinscrit()">INSCRIPTION</button>
+
+
+
+<form id="myForm">
+
+
+
+
+        <label class="form_col" for="mail">Email :</label>
+        <input name="mail" id="mail" type="text" />
+        <span class="tooltip">L'adresse mail est incorrect</span>
+        <br /><br />
+
+        <label class="form_col" for="pwd1">Mot de passe :</label>
+        <input name="pwd1" id="pwd1" type="password" />
+        <span class="tooltip">Le mot de passe ne doit pas faire moins de 6 caractères</span>
+        <br /><br />
+
+
+
+
+ 
+
+        <span class="form_col"></span>
+        <button onclick="jeMidentifie()"type="submit" value="Envoyer" />
+
+
+
+    </form>
+
+
+    
+
+    <script type="text/javascript" src="inscription.js"></script>
+
+
+</body>
+
+</html>
